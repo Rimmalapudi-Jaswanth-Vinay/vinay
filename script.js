@@ -6,6 +6,6 @@ function sayHello() {
   if (name.trim() === "") {
     output.textContent = "Please enter your name!";
   } else {
-    output.textContent = `Hello, ${name}! 👋`;
+    output.textContent = `Hello, ${name}!, Nice to meet you`;
   }
 }
